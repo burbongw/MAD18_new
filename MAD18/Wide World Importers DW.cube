@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="16" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-17471" scrolltop="-5000" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="87" x="51858" y="20876" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="16" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-17471" scrolltop="4030" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="87" x="51858" y="20876" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
             </font>
@@ -282,7 +282,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-5000</Value>
+      <Value>4030</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -343,15 +343,12 @@
         </Attribute>
         <Attribute dwd:design-time-name="0704ba39-7964-4bad-8c6e-5240704e5fc1">
           <AttributeID>City Key</AttributeID>
-          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
         <Attribute dwd:design-time-name="be96feeb-6890-42e4-b6e4-e7a87d5bfe46">
           <AttributeID>Customer Key</AttributeID>
-          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
         <Attribute dwd:design-time-name="dbf60957-1ab0-4074-b528-22974d80437f">
           <AttributeID>Stock Item Key</AttributeID>
-          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
       </Attributes>
     </Dimension>
@@ -398,15 +395,12 @@
         </Attribute>
         <Attribute dwd:design-time-name="caf02e7f-541d-4bc4-a53b-8b73f7c8c630">
           <AttributeID>City Key</AttributeID>
-          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
         <Attribute dwd:design-time-name="e69cfcac-4b3f-480a-98a3-0c2bec45c005">
           <AttributeID>Customer Key</AttributeID>
-          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
         <Attribute dwd:design-time-name="c337c8db-8a71-4114-9622-c684dff12f23">
           <AttributeID>Stock Item Key</AttributeID>
-          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
         <Attribute dwd:design-time-name="dc9f3b19-ce94-4790-b31a-1f741ce84905">
           <AttributeID>Date</AttributeID>
@@ -456,15 +450,12 @@
         </Attribute>
         <Attribute dwd:design-time-name="c130740c-a8a3-4177-8f6e-56b2daf76bee">
           <AttributeID>City Key</AttributeID>
-          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
         <Attribute dwd:design-time-name="026ce8b6-bdd8-4ac6-882b-3c669d86ec6b">
           <AttributeID>Customer Key</AttributeID>
-          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
         <Attribute dwd:design-time-name="8a308a35-0a6f-4dba-bf30-625868ef8fff">
           <AttributeID>Stock Item Key</AttributeID>
-          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
         <Attribute dwd:design-time-name="5ae5a758-13dd-45c4-9073-d874c57e76f7">
           <AttributeID>Date</AttributeID>
@@ -514,15 +505,12 @@
         </Attribute>
         <Attribute dwd:design-time-name="3325096b-b3c8-405f-a793-93a4c5ddb9b5">
           <AttributeID>City Key</AttributeID>
-          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
         <Attribute dwd:design-time-name="a519a28b-ca5c-4df5-a5d1-2be267733047">
           <AttributeID>Customer Key</AttributeID>
-          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
         <Attribute dwd:design-time-name="34c39beb-a1ad-40f3-a7f1-e424ec312786">
           <AttributeID>Stock Item Key</AttributeID>
-          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
         <Attribute dwd:design-time-name="048b56d8-ee0f-437f-9754-07948f4dd63a">
           <AttributeID>Date</AttributeID>
@@ -572,15 +560,12 @@
         </Attribute>
         <Attribute dwd:design-time-name="e71c6236-77c5-46dd-94b8-d65749f9b82d">
           <AttributeID>City Key</AttributeID>
-          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
         <Attribute dwd:design-time-name="dc12d920-ea5c-4c70-afa9-510fa1bf4ed2">
           <AttributeID>Customer Key</AttributeID>
-          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
         <Attribute dwd:design-time-name="a097e83f-c4e0-45c0-b19b-aeb22ac2fcc6">
           <AttributeID>Stock Item Key</AttributeID>
-          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
         <Attribute dwd:design-time-name="14ffc160-c613-4da9-890d-031b22c130b8">
           <AttributeID>Date</AttributeID>
@@ -636,15 +621,12 @@
         </Attribute>
         <Attribute dwd:design-time-name="6a127694-8804-418b-b1bb-0a693fe93fca">
           <AttributeID>City Key</AttributeID>
-          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
         <Attribute dwd:design-time-name="9907852b-1cba-4a55-8be4-ab706a20fc2b">
           <AttributeID>Customer Key</AttributeID>
-          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
         <Attribute dwd:design-time-name="252e136b-11dd-480c-9a34-6f39a9dea019">
           <AttributeID>Stock Item Key</AttributeID>
-          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
         <Attribute dwd:design-time-name="422df14f-4d29-4db6-9d37-108d2ab8a925">
           <AttributeID>Date</AttributeID>
@@ -694,15 +676,12 @@
         </Attribute>
         <Attribute dwd:design-time-name="dae19f5b-3653-4a54-b364-00da00b33e09">
           <AttributeID>City Key</AttributeID>
-          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
         <Attribute dwd:design-time-name="c01ebda0-4182-46b3-90c6-0efb3ef22279">
           <AttributeID>Customer Key</AttributeID>
-          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
         <Attribute dwd:design-time-name="4507e05a-cf32-4bb8-96dd-fe769602585f">
           <AttributeID>Stock Item Key</AttributeID>
-          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
         <Attribute dwd:design-time-name="245352c8-a901-4dda-ab87-9b562768094d">
           <AttributeID>Date</AttributeID>
@@ -752,15 +731,12 @@
         </Attribute>
         <Attribute dwd:design-time-name="09caae82-6182-4797-8d23-02bc5547ea31">
           <AttributeID>City Key</AttributeID>
-          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
         <Attribute dwd:design-time-name="306db75c-1d8f-4208-9bd2-6b65e44e98a6">
           <AttributeID>Customer Key</AttributeID>
-          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
         <Attribute dwd:design-time-name="62ddc1b3-3cdb-4a5b-bf54-5926e0aee649">
           <AttributeID>Stock Item Key</AttributeID>
-          <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
         <Attribute dwd:design-time-name="6fc589b1-d91e-43b7-a494-383c44ab4696">
           <AttributeID>Date</AttributeID>
@@ -804,6 +780,75 @@
           <AttributeID>Stock Item Key</AttributeID>
         </Attribute>
       </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="5ddb89b9-8959-4103-be07-5bba1d7b7282">
+      <ID>Delivery Date 1</ID>
+      <Name>Delivery Date 1</Name>
+      <DimensionID>DATEDIMENSION</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="341270aa-5f14-4903-a922-61f36b7b70ec">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fe446566-d97a-4432-9d96-7861e60b3df2">
+          <AttributeID>Calendar Month Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3a804a90-3102-4b6f-9195-061d942182bc">
+          <AttributeID>Calendar Year</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="63bf3624-272b-482e-bedc-49b98d8e6918">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="7d6a74c1-dca3-478e-a628-a393e9245762">
+      <ID>Invoice Date 1</ID>
+      <Name>Invoice Date 1</Name>
+      <DimensionID>DATEDIMENSION</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="8da55db7-56c3-4cd0-83c4-66969706e106">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="640bc798-3edc-4e65-9325-6d09bb1d106e">
+          <AttributeID>Calendar Month Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7c30e3ed-be1f-4057-b118-999a04410a6f">
+          <AttributeID>Calendar Year</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="256cd0ec-f6aa-4c9f-99b2-8391f4fac051">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="fced2772-2f93-4308-9927-f52b58233a1b">
+      <ID>DATEDIMENSION</ID>
+      <Name>DATEDIMENSION</Name>
+      <Translations>
+        <Translation dwd:design-time-name="e0c352a4-4951-4e1b-9eaf-7cd05aabe52c">
+          <Caption>Data</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
+      <DimensionID>DATEDIMENSION</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="a0139bcb-6e88-4934-a67a-58e5a204b405">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6bf7fcbc-2660-4f4c-b612-38f43d28c0c6">
+          <AttributeID>Calendar Month Number</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c37f2531-df47-4714-ab01-e61c8f8a2633">
+          <AttributeID>Calendar Year</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="22121aeb-5088-48d8-b4bf-94639186979f">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
@@ -988,6 +1033,24 @@
                   <Source xsi:type="ColumnBinding" dwd:design-time-name="79e11e00-a51c-4204-8384-1e40ad590664">
                     <TableID>OLAP_FACT_ORDER</TableID>
                     <ColumnID>Stock_x0020_Item_x0020_Key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="cb0040e6-72f9-4313-adbd-93dded20eae7">
+          <CubeDimensionID>DATEDIMENSION</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7844dea4-005a-456f-89bb-82f2574db084">
+              <AttributeID>Date</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="51c41f74-2e5a-4098-915f-f5820f6d08e9">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0844275e-8b2c-4014-aa86-a7db6ff07271">
+                    <TableID>OLAP_FACT_ORDER</TableID>
+                    <ColumnID>Order_x0020_Date_x0020_Key</ColumnID>
                   </Source>
                 </KeyColumn>
               </KeyColumns>
@@ -1232,6 +1295,62 @@
                 <KeyColumn dwd:design-time-name="173ff1cf-3aaf-4197-a95f-70d3514504b3">
                   <DataType>Date</DataType>
                   <Source xsi:type="ColumnBinding" dwd:design-time-name="0da2fde3-78f3-454a-b6ca-9ae37ba38d6b">
+                    <TableID>OLAP_Fact_Sale</TableID>
+                    <ColumnID>Invoice_x0020_Date_x0020_Key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b1c59bfb-e8d5-4a30-a6fb-f9e77c342196">
+          <CubeDimensionID>Delivery Date 1</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="4fa19db0-4eeb-4708-8a52-e590813df2f9">
+              <AttributeID>Date</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="50d4fa77-2de9-4ef3-9f20-2383994753bd">
+                  <DataType>Date</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e0876dc7-573a-484d-95c6-a3b663014a75">
+                    <TableID>OLAP_Fact_Sale</TableID>
+                    <ColumnID>Delivery_x0020_Date_x0020_Key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8030e338-ed09-4b0a-980e-86a52789ee57">
+          <CubeDimensionID>Invoice Date 1</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e3b80499-5fc6-496e-9284-b7ee507567f4">
+              <AttributeID>Date</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="16bb99a6-bba6-42cb-8564-fd56eb477fb9">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e0ba765e-77b3-42f7-8546-d52485b2bb83">
+                    <TableID>OLAP_Fact_Sale</TableID>
+                    <ColumnID>Invoice_x0020_Date_x0020_Key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f8e61cb8-f3b9-47d8-84d5-32518cc440a7">
+          <CubeDimensionID>DATEDIMENSION</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="3e605283-3531-497f-9adc-905e19c7f04a">
+              <AttributeID>Date</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="17e0edb5-0893-42d2-943d-099cdffbd423">
+                  <DataType>Date</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="13e240c8-c5a3-4e64-8fe6-953a0020c292">
                     <TableID>OLAP_Fact_Sale</TableID>
                     <ColumnID>Invoice_x0020_Date_x0020_Key</ColumnID>
                   </Source>

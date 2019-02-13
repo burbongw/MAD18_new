@@ -76,23 +76,17 @@
               </Attributes>
               <Position x="20" y="20" />
             </Shape>
-            <Shape Id="Day Number" Expanded="true">
-              <Attributes>
-                <Attribute Id="Day Number" />
-              </Attributes>
-              <Position x="263" y="20" />
-            </Shape>
             <Shape Id="Calendar Month Number" Expanded="true">
               <Attributes>
                 <Attribute Id="Calendar Month Number" />
               </Attributes>
-              <Position x="507" y="20" />
+              <Position x="263" y="20" />
             </Shape>
             <Shape Id="Calendar Year" Expanded="false">
               <Attributes>
                 <Attribute Id="Calendar Year" />
               </Attributes>
-              <Position x="751" y="20" />
+              <Position x="507" y="20" />
             </Shape>
           </Shapes>
         </DiagramLayout>
@@ -140,37 +134,7 @@
         </Translation>
       </Translations>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="91d3f0e0-c22b-4e3a-b65e-7b97a234092b">
-          <AttributeID>Day Number</AttributeID>
-          <Name>Day Number</Name>
-        </AttributeRelationship>
-      </AttributeRelationships>
-      <OrderBy>Key</OrderBy>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="4d382ac2-bb04-4085-adb3-62195b2b8586">
-      <ID>Day Number</ID>
-      <Name>Day Number</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="d8ae9b2b-664a-44c3-8e2e-3850d3285db7">
-          <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="a7e113a4-e67d-45b5-adb2-ceab2321cfbe">
-            <TableID>OLAP_DATEDIMENSION</TableID>
-            <ColumnID>Day_x0020_Number</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <NameColumn dwd:design-time-name="6561af6b-6e84-410b-a6be-4767485531a1">
-        <DataType>WChar</DataType>
-        <DataSize>10</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="4ec4f374-aef0-4320-b360-8705d5533641">
-          <TableID>OLAP_DATEDIMENSION</TableID>
-          <ColumnID>Day</ColumnID>
-        </Source>
-      </NameColumn>
-      <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="19def142-9c53-42ba-a013-741d7344156b">
+        <AttributeRelationship dwd:design-time-name="52f1f4fa-76ef-454e-bdd5-c4e416ec8915">
           <AttributeID>Calendar Month Number</AttributeID>
           <Name>Calendar Month Number</Name>
         </AttributeRelationship>
@@ -264,17 +228,6 @@
           <Translations>
             <Translation dwd:design-time-name="a4369e9b-82b9-47af-a48b-cab7d9dab04f">
               <Caption>Miesiąc</Caption>
-              <Language>1045</Language>
-            </Translation>
-          </Translations>
-        </Level>
-        <Level dwd:design-time-name="29b69c94-b23d-4467-aee6-758cfb8d1fe3">
-          <ID>Day Number</ID>
-          <Name>Day Number</Name>
-          <SourceAttributeID>Day Number</SourceAttributeID>
-          <Translations>
-            <Translation dwd:design-time-name="cecd1ab8-a1f6-4ecd-83bb-583c787127b2">
-              <Caption>Dzień</Caption>
               <Language>1045</Language>
             </Translation>
           </Translations>
