@@ -181,6 +181,33 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
       <Value>88</Value>
     </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="201">
+            <Shape Id="Fact Order Composite Key" Expanded="true">
+              <Attributes>
+                <Attribute Id="Fact Order Composite Key" />
+                <Attribute Id="City Key" />
+                <Attribute Id="Customer Key" />
+                <Attribute Id="Date" />
+                <Attribute Id="Description" />
+                <Attribute Id="Package" />
+                <Attribute Id="Quantity" />
+                <Attribute Id="Stock Item Key" />
+                <Attribute Id="Tax Amount" />
+                <Attribute Id="Tax Rate" />
+                <Attribute Id="Total Excluding Tax" />
+                <Attribute Id="Total Including Tax" />
+                <Attribute Id="Unit Price" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
@@ -194,6 +221,12 @@
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Translations>
+    <Translation dwd:design-time-name="fa68399d-2b53-4933-9457-f3a19f8a421a">
+      <Caption>Zamówienia</Caption>
+      <Language>1045</Language>
+    </Translation>
+  </Translations>
   <Attributes>
     <Attribute dwd:design-time-name="5e326984-dfe6-4cef-b5a4-adc6936c1835">
       <ID>Fact Order Composite Key</ID>
@@ -218,18 +251,6 @@
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="fd005489-7dff-47d1-9257-acf4127dced2">
-          <AttributeID>Description</AttributeID>
-          <Name>Description</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="39013d86-5712-411c-93f6-0bf6037de4be">
-          <AttributeID>Package</AttributeID>
-          <Name>Package</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="2f0bf82e-2692-4f73-98d8-27a2be9604f3">
-          <AttributeID>Quantity</AttributeID>
-          <Name>Quantity</Name>
-        </AttributeRelationship>
         <AttributeRelationship dwd:design-time-name="a4fe1a61-b291-43a5-9e0b-f92d94c0beaa">
           <AttributeID>Unit Price</AttributeID>
           <Name>Unit Price</Name>
@@ -250,21 +271,33 @@
           <AttributeID>Total Including Tax</AttributeID>
           <Name>Total Including Tax</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="26e71acf-447b-4542-83ce-967b0bf435b4">
-          <AttributeID>Date</AttributeID>
-          <Name>Date</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="7f4489dc-44ac-497a-8f88-bd1fba178bab">
-          <AttributeID>City Key</AttributeID>
-          <Name>City Key</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="65eccd22-7bd3-4c5a-a105-78203dd6e0e8">
-          <AttributeID>Customer Key</AttributeID>
-          <Name>Customer Key</Name>
-        </AttributeRelationship>
         <AttributeRelationship dwd:design-time-name="49bfa917-6834-490d-bbe5-20bbc74ccf19">
           <AttributeID>Stock Item Key</AttributeID>
           <Name>Stock Item Key</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="613eebb1-d1ad-4301-b50c-9f7b45cf2dcf">
+          <AttributeID>Customer Key</AttributeID>
+          <Name>Customer Key</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8f63d240-b235-4b47-9761-60c9029b7e84">
+          <AttributeID>Description</AttributeID>
+          <Name>Description</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f3f908e5-7d8d-4d96-b2b8-24c823aa5a42">
+          <AttributeID>Package</AttributeID>
+          <Name>Package</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9b1c9f1d-d485-4584-9eb5-d3360f93b197">
+          <AttributeID>Quantity</AttributeID>
+          <Name>Quantity</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="69a9b71c-d95e-49d1-8b7f-725975e20d35">
+          <AttributeID>Date</AttributeID>
+          <Name>Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5c26a130-3ca4-4a4d-ab09-e95d69623f45">
+          <AttributeID>City Key</AttributeID>
+          <Name>City Key</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
@@ -284,6 +317,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="13f68256-fba5-4d4c-866e-cb4d0db92e6c">
+          <Caption>Opis</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -301,6 +340,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="4b65b48b-2028-41f4-90c0-94bb0efdfbb9">
+          <Caption>Paczka</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -317,6 +362,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="38c1c3a2-501c-43f9-97d9-eb8d9a546514">
+          <Caption>Ilość</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -333,6 +384,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="5bacb142-ddee-429b-9fa1-cfd89e2fe703">
+          <Caption>Cena</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -349,6 +406,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="f68484a8-46c8-4b4b-b489-546dc975e4fa">
+          <Caption>Stawka podatkowa</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -365,6 +428,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="6c94598d-38be-43b3-ad04-f6af9496e4f7">
+          <Caption>Zwolnione z podatku</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -381,6 +450,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="0cd435e6-d8be-4d89-a11f-84ba471663d7">
+          <Caption>Wielkość podatku</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -397,6 +472,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="0f17c95a-c1cb-4d8e-a8b4-b6e5866c629b">
+          <Caption>Całkowita wysokość podatku</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -414,6 +495,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="891f357c-2fe1-4179-8e19-3ec7bd4a9608">
+          <Caption>Data</Caption>
+          <Language>1045</Language>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
