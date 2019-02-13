@@ -111,6 +111,7 @@
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
+  <UnknownMemberName>1899-01-01</UnknownMemberName>
   <Translations>
     <Translation dwd:design-time-name="11e58c3d-4a52-4285-8427-dc44ac4c4f05">
       <Caption>Data</Caption>
@@ -175,7 +176,6 @@
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
-      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -206,7 +206,6 @@
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
-      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -216,6 +215,7 @@
       <KeyColumns>
         <KeyColumn dwd:design-time-name="34c7aaa3-0b45-4dd5-b217-a2b3ec3ee4b9">
           <DataType>Integer</DataType>
+          <NullProcessing>ZeroOrBlank</NullProcessing>
           <Source xsi:type="ColumnBinding" dwd:design-time-name="0c3d2bd8-3d77-46d6-b914-2970f411bf4a">
             <TableID>OLAP_DATEDIMENSION</TableID>
             <ColumnID>Calendar_x0020_Year</ColumnID>
@@ -231,7 +231,6 @@
         </Source>
       </NameColumn>
       <OrderBy>Key</OrderBy>
-      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>

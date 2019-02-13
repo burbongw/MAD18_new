@@ -214,13 +214,14 @@
   <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="311d11d3-ce7f-4333-b940-3674380e28cd">
     <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
   </Source>
-  <UnknownMember>Visible</UnknownMember>
+  <UnknownMember>Hidden</UnknownMember>
   <ErrorConfiguration dwd:design-time-name="5dc9456f-c1ff-4b5f-8551-2833edebfb48">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
+  <UnknownMemberName>Unknown</UnknownMemberName>
   <Translations>
     <Translation dwd:design-time-name="fa68399d-2b53-4933-9457-f3a19f8a421a">
       <Caption>Zamówienia</Caption>
@@ -236,6 +237,7 @@
         <KeyColumn dwd:design-time-name="72b1d72f-ab94-4527-a5a1-34d62843912c">
           <DataType>WChar</DataType>
           <DataSize>64</DataSize>
+          <NullProcessing>UnknownMember</NullProcessing>
           <Source xsi:type="ColumnBinding" dwd:design-time-name="aaaee959-f885-448b-804c-7f1746d44b71">
             <TableID>OLAP_FACT_ORDER</TableID>
             <ColumnID>Fact_Order_Composite_Key</ColumnID>
@@ -518,7 +520,6 @@
         </KeyColumn>
       </KeyColumns>
       <OrderBy>Key</OrderBy>
-      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -535,7 +536,6 @@
         </KeyColumn>
       </KeyColumns>
       <OrderBy>Key</OrderBy>
-      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
@@ -552,7 +552,6 @@
         </KeyColumn>
       </KeyColumns>
       <OrderBy>Key</OrderBy>
-      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>

@@ -6,6 +6,18 @@
     <Name>MAD18.database</Name>
     <FullPath>MAD18.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Wide World Importers DW.cube</Name>
+      <FullPath>Wide World Importers DW.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Wide World Importers DW.partitions</Name>
+          <FullPath>Wide World Importers DW.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
   <Dimensions>
     <ProjectItem>
       <Name>Fact Sale.dim</Name>
@@ -26,6 +38,10 @@
     <ProjectItem>
       <Name>Stock Item.dim</Name>
       <FullPath>Stock Item.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Stock Item 1.dim</Name>
+      <FullPath>Stock Item 1.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
