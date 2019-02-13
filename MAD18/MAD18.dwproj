@@ -6,10 +6,55 @@
     <Name>MAD18.database</Name>
     <FullPath>MAD18.database</FullPath>
   </Database>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Fact Sale.dim</Name>
+      <FullPath>Fact Sale.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>FACT ORDER.dim</Name>
+      <FullPath>FACT ORDER.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DATEDIMENSION.dim</Name>
+      <FullPath>DATEDIMENSION.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>CITY.dim</Name>
+      <FullPath>CITY.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
+  <DataSources>
+    <ProjectItem>
+      <Name>Wide World Importers DW.ds</Name>
+      <FullPath>Wide World Importers DW.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>Wide World Importers DW.dsv</Name>
+      <FullPath>Wide World Importers DW.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
-      <Options />
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>Wide World Importers DW</Id>
+            <Name>Wide World Importers DW</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=DESKTOP-0NUGCCL;Integrated Security=SSPI;Initial Catalog=WideWorldImportersDW</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>Wide World Importers DW</Id>
+            <Name>Wide World Importers DW</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
     </Configuration>
   </Configurations>
 </Project>
