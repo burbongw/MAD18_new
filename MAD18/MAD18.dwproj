@@ -39,10 +39,6 @@
       <Name>Stock Item.dim</Name>
       <FullPath>Stock Item.dim</FullPath>
     </ProjectItem>
-    <ProjectItem>
-      <Name>Stock Item 1.dim</Name>
-      <FullPath>Stock Item 1.dim</FullPath>
-    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
