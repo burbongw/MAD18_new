@@ -1092,4 +1092,23 @@
   <Source dwd:design-time-name="17ed6154-d8cb-49f5-bf67-7ba5944bf876">
     <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
   </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="dc7dd3bc-176e-4460-a0e2-b9717a57b0d0">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>
+CALCULATE;
+CREATE MEMBER CurrentCube.[Measures].Tax_per_Item
+ AS [Measures].[Tax Amount]/[Measures].[Quantity], 
+FORMAT_STRING = "#,##;-#,##", 
+VISIBLE = 1 , DISPLAY_FOLDER = 'FactOrderTaxes'  ;
+; </Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
 </Cube>
