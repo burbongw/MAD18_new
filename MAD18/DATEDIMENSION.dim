@@ -166,6 +166,14 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="1271a4c9-e706-413c-8664-c89b6a519aa7">
+        <DataType>WChar</DataType>
+        <DataSize>10</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="6d265230-7159-4fa4-a6d3-9f2a40e0359b">
+          <TableID>OLAP_DATEDIMENSION</TableID>
+          <ColumnID>Day</ColumnID>
+        </Source>
+      </NameColumn>
       <Translations>
         <Translation dwd:design-time-name="4dfd3e47-04a9-4ae5-b3c9-b1b6abc59824">
           <Language>1045</Language>
@@ -188,6 +196,14 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="91b3561d-0286-47f8-84a3-55e02db52ee4">
+        <DataType>WChar</DataType>
+        <DataSize>20</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="8634436f-b361-4b86-8ca3-f742d90b206e">
+          <TableID>OLAP_DATEDIMENSION</TableID>
+          <ColumnID>Calendar_x0020_Month_x0020_Label</ColumnID>
+        </Source>
+      </NameColumn>
       <Translations>
         <Translation dwd:design-time-name="dc98ba7d-9f03-4d5f-8557-1fabeb5b49a7">
           <Language>1045</Language>
@@ -210,6 +226,14 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="fd4413f2-42f8-4acb-925d-cc96c16f9f07">
+        <DataType>WChar</DataType>
+        <DataSize>10</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="247286a7-7fb5-4818-b6e4-c5cd1898e709">
+          <TableID>OLAP_DATEDIMENSION</TableID>
+          <ColumnID>Calendar_x0020_Year_x0020_Label</ColumnID>
+        </Source>
+      </NameColumn>
       <Translations>
         <Translation dwd:design-time-name="01f732fa-a5f9-4f44-b4c0-13a7b78837fc">
           <Language>1045</Language>
@@ -236,34 +260,16 @@
           <ID>Calendar Year</ID>
           <Name>Calendar Year</Name>
           <SourceAttributeID>Calendar Year</SourceAttributeID>
-          <Translations>
-            <Translation dwd:design-time-name="91eeecd5-9ddc-46a6-ae92-05404ebfc4e1">
-              <Language>1045</Language>
-              <Caption>ROK</Caption>
-            </Translation>
-          </Translations>
         </Level>
         <Level dwd:design-time-name="0e665cc5-c2db-42bb-ae0b-ef76d70923af">
           <ID>Calendar Month Number</ID>
           <Name>Calendar Month Number</Name>
           <SourceAttributeID>Calendar Month Number</SourceAttributeID>
-          <Translations>
-            <Translation dwd:design-time-name="35ef8a6f-081e-46e0-9e33-cbf05a12f073">
-              <Language>1045</Language>
-              <Caption>MIESIĄC</Caption>
-            </Translation>
-          </Translations>
         </Level>
         <Level dwd:design-time-name="0a34921a-1210-43bc-b935-bd898c339af5">
           <ID>Day Number</ID>
           <Name>Day Number</Name>
           <SourceAttributeID>Day Number</SourceAttributeID>
-          <Translations>
-            <Translation dwd:design-time-name="08efa9f8-2015-49cd-b759-f1312aad3c03">
-              <Language>1045</Language>
-              <Caption>DZIEŃ</Caption>
-            </Translation>
-          </Translations>
         </Level>
       </Levels>
     </Hierarchy>

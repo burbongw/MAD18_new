@@ -120,11 +120,15 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="e2836eee-65f0-427d-a1f2-5176a3241e4d">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="1297beb3-a675-4c5a-98d5-744040c86095">
+          <TableID>OLAP_CITY</TableID>
+          <ColumnID>City_x0020_Key</ColumnID>
+        </Source>
+      </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="2c7ba6de-91d7-4098-be59-4a61a2b2bb88">
-          <AttributeID>City</AttributeID>
-          <Name>City</Name>
-        </AttributeRelationship>
         <AttributeRelationship dwd:design-time-name="616c5b7c-5a01-4fa6-b40e-9518a0417198">
           <AttributeID>State Province</AttributeID>
           <Name>State Province</Name>
@@ -154,29 +158,6 @@
           <Name>Latest Recorded Population</Name>
         </AttributeRelationship>
       </AttributeRelationships>
-      <OrderBy>Key</OrderBy>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="e34eeb90-7f51-45b2-9e4d-0bb680af3270">
-      <ID>City</ID>
-      <Name>City</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="4af12268-97c4-4864-a6bc-1a4eab6c77cf">
-          <DataType>WChar</DataType>
-          <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="85f57718-55f4-45ee-b257-79fee0f6c94d">
-            <TableID>OLAP_CITY</TableID>
-            <ColumnID>City</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <Translations>
-        <Translation dwd:design-time-name="b835bcf3-41be-499c-bffd-852bede00eb8">
-          <Language>1045</Language>
-          <Caption>MIASTO</Caption>
-        </Translation>
-      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -357,67 +338,26 @@
           <ID>Region</ID>
           <Name>Region</Name>
           <SourceAttributeID>Region</SourceAttributeID>
-          <Translations>
-            <Translation dwd:design-time-name="bbd2f3e4-abfe-427f-a595-6458dbca87f9">
-              <Language>1045</Language>
-              <Caption>REGION</Caption>
-            </Translation>
-          </Translations>
         </Level>
         <Level dwd:design-time-name="24c48b2c-8201-4919-bb5b-44b799d7b2cc">
           <ID>Continent</ID>
           <Name>Continent</Name>
           <SourceAttributeID>Continent</SourceAttributeID>
-          <Translations>
-            <Translation dwd:design-time-name="57645025-e347-4d99-a848-7d2203d506e0">
-              <Language>1045</Language>
-              <Caption>KONTYNENT</Caption>
-            </Translation>
-          </Translations>
         </Level>
         <Level dwd:design-time-name="106ddf2b-8e90-4be3-a628-47a8be173a55">
           <ID>Subregion</ID>
           <Name>Subregion</Name>
           <SourceAttributeID>Subregion</SourceAttributeID>
-          <Translations>
-            <Translation dwd:design-time-name="99cd3dca-d187-420d-b7cc-c4042a122b2e">
-              <Language>1045</Language>
-              <Caption>PODREGION</Caption>
-            </Translation>
-          </Translations>
         </Level>
         <Level dwd:design-time-name="fc0cd532-5bb9-4aa8-9c2e-edf4f1b01935">
           <ID>Country</ID>
           <Name>Country</Name>
           <SourceAttributeID>Country</SourceAttributeID>
-          <Translations>
-            <Translation dwd:design-time-name="f64f509a-195a-4301-bf9d-b81a6a9efac5">
-              <Language>1045</Language>
-              <Caption>KRAJ</Caption>
-            </Translation>
-          </Translations>
         </Level>
         <Level dwd:design-time-name="8bddea5e-a7b1-4b5a-9136-a128236e51f9">
           <ID>State Province</ID>
           <Name>State Province</Name>
           <SourceAttributeID>State Province</SourceAttributeID>
-          <Translations>
-            <Translation dwd:design-time-name="4adfbdd8-0172-486e-83da-13a20fd69d01">
-              <Language>1045</Language>
-              <Caption>STAN</Caption>
-            </Translation>
-          </Translations>
-        </Level>
-        <Level dwd:design-time-name="7a8c2940-9319-4703-bfb8-3d12ec9ffe0b">
-          <ID>City</ID>
-          <Name>City</Name>
-          <SourceAttributeID>City</SourceAttributeID>
-          <Translations>
-            <Translation dwd:design-time-name="cb7d9845-7556-467f-84ec-e56cc9661a02">
-              <Language>1045</Language>
-              <Caption>MIASTO</Caption>
-            </Translation>
-          </Translations>
         </Level>
       </Levels>
     </Hierarchy>

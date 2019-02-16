@@ -97,11 +97,15 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="3dfe9c1a-b86d-4685-9748-6ad7cea7004d">
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="0ccdbf2b-6a08-4613-8ded-df685264b13c">
+          <TableID>OLAP_Stock_Item</TableID>
+          <ColumnID>Stock_x0020_Item_x0020_Key</ColumnID>
+        </Source>
+      </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="f57fc09d-6703-43b3-96e0-87a9c30617b8">
-          <AttributeID>Stock Item</AttributeID>
-          <Name>Stock Item</Name>
-        </AttributeRelationship>
         <AttributeRelationship dwd:design-time-name="f1f49dfc-22b9-41ff-a266-d8b45fa68129">
           <AttributeID>Color</AttributeID>
           <Name>Color</Name>
@@ -135,29 +139,6 @@
           <Name>Unit Price</Name>
         </AttributeRelationship>
       </AttributeRelationships>
-      <OrderBy>Key</OrderBy>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="1720b779-6525-4204-b47e-a44fb710872b">
-      <ID>Stock Item</ID>
-      <Name>Stock Item</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="03fcf9ae-27d5-4963-b3da-c6473db96d69">
-          <DataType>WChar</DataType>
-          <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="4da66100-c1d8-4dba-9e68-07ddebe7394e">
-            <TableID>OLAP_Stock_Item</TableID>
-            <ColumnID>Stock_x0020_Item</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <Translations>
-        <Translation dwd:design-time-name="71c51cd9-7472-4882-b6d5-f8cef2136707">
-          <Language>1045</Language>
-          <Caption>PRZEDMIOT</Caption>
-        </Translation>
-      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>

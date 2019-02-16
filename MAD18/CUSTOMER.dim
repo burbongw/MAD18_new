@@ -118,9 +118,9 @@
       <NameColumn dwd:design-time-name="6a4f3b79-ecbc-4e42-a711-2b18f899bf8c">
         <DataType>WChar</DataType>
         <DataSize>100</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="779ac16b-5154-4c91-a03d-3fa92e28732d">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="266042b0-dbb7-4d27-834f-f48ce61089ba">
           <TableID>OLAP_CUSTOMER</TableID>
-          <ColumnID>Customer</ColumnID>
+          <ColumnID>Customer_x0020_Key</ColumnID>
         </Source>
       </NameColumn>
       <AttributeRelationships>
