@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="1f211a42-a999-402c-88fa-1919bcba5948" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8d68d984-5f27-444c-9b0c-33dca4a9317c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>CUSTOMER</ID>
   <Name>CUSTOMER</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3102" scrolltop="-2275" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9472" y="9393" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4372" scrolltop="-5807" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="12012" y="16457" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
             </font>
@@ -47,11 +47,11 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-3102</Value>
+      <Value>-4372</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-2275</Value>
+      <Value>-5807</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -86,53 +86,59 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="9ef9f801-a490-4055-b7f8-50879ac90b9c">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="04f69336-ce9b-4e1a-b865-d69db16bb052">
     <DataSourceViewID>Wide World Importers DW</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="8ac64752-bb86-42cd-8452-b920fa8e71ea">
+  <ErrorConfiguration dwd:design-time-name="1f67ed20-cdcb-420a-b927-5b17cd5d63c4">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Translations>
-    <Translation dwd:design-time-name="8e4b42c8-9b81-4767-97ce-1a3e12fba1ce">
+    <Translation dwd:design-time-name="08f460da-7fa6-4d8b-aa43-0477ba7b4012">
       <Language>1045</Language>
-      <Caption>KLIENT</Caption>
+      <Caption>KLIENCI</Caption>
     </Translation>
   </Translations>
   <Attributes>
-    <Attribute dwd:design-time-name="e401d5eb-a2d2-4ea5-9a2c-17737e6be562">
+    <Attribute dwd:design-time-name="004cd8fb-92bb-4cc8-a5f4-a592e7e74173">
       <ID>Customer Key</ID>
       <Name>Customer Key</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="3d173d1c-e49b-4ce3-8446-944fadf4a972">
+        <KeyColumn dwd:design-time-name="9d9921d0-2084-482c-a832-6e8ff861d01e">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="a0b3ed2c-6ade-48fa-90b1-005736541229">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6ad4c6c1-a7f0-4a70-93c8-5505071b5575">
             <TableID>OLAP_CUSTOMER</TableID>
             <ColumnID>Customer_x0020_Key</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="6a4f3b79-ecbc-4e42-a711-2b18f899bf8c">
+      <NameColumn dwd:design-time-name="bdf97028-9f6e-42f8-a726-b263e052eb6f">
         <DataType>WChar</DataType>
         <DataSize>100</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="266042b0-dbb7-4d27-834f-f48ce61089ba">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="4dcf621e-8cfc-46f8-a50c-43eeea3b31b2">
           <TableID>OLAP_CUSTOMER</TableID>
-          <ColumnID>Customer_x0020_Key</ColumnID>
+          <ColumnID>Customer</ColumnID>
         </Source>
       </NameColumn>
+      <Translations>
+        <Translation dwd:design-time-name="942e960a-a354-4b09-aa8d-c496c2646244">
+          <Language>1045</Language>
+          <Caption>Klient</Caption>
+        </Translation>
+      </Translations>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="7f455fde-5da0-4098-843d-e4f03cbece85">
+        <AttributeRelationship dwd:design-time-name="b27a149a-a948-4b17-8ff4-eb7aeaa76755">
           <AttributeID>Category</AttributeID>
           <Name>Category</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="28d7bda9-753b-48d2-946f-3e5603fb9151">
+        <AttributeRelationship dwd:design-time-name="8f525b52-d7ea-48d9-9612-b36d4516c7d4">
           <AttributeID>Primary Contact</AttributeID>
           <Name>Primary Contact</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="138b4b7f-6b77-4877-a00c-f1651f51cfaf">
+        <AttributeRelationship dwd:design-time-name="1298a161-0adf-41f7-8784-321446b4f5d6">
           <AttributeID>Postal Code</AttributeID>
           <Name>Postal Code</Name>
         </AttributeRelationship>
@@ -140,69 +146,69 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="ba9b5b3c-b898-45d0-90e8-e08302fe2c49">
+    <Attribute dwd:design-time-name="1ead7be4-4f61-4041-87dd-614ad113ceac">
       <ID>Category</ID>
       <Name>Category</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="51727d66-5856-45c8-b5c8-c85819f64369">
+        <KeyColumn dwd:design-time-name="363d3358-b4e5-40a9-b7c1-cd9952b48632">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="b1eb479f-e47b-4a85-acdb-e9f3f06a339a">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d55899ee-54fc-41de-b38b-b37770cb232f">
             <TableID>OLAP_CUSTOMER</TableID>
             <ColumnID>Category</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <Translations>
-        <Translation dwd:design-time-name="28e101ef-f61e-4e4b-8f8c-3e0cad0efa31">
+        <Translation dwd:design-time-name="75fb7754-8006-4b0b-ab42-45936268c00e">
           <Language>1045</Language>
-          <Caption>KATEGORIA</Caption>
+          <Caption>Kategoria</Caption>
         </Translation>
       </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="e76eb606-0dc7-44c5-891d-5e04ffa7325d">
+    <Attribute dwd:design-time-name="b62983bb-0554-419d-beef-66c1f009a3f7">
       <ID>Primary Contact</ID>
       <Name>Primary Contact</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="b19fedf0-2212-4d53-81b6-5744f078e805">
+        <KeyColumn dwd:design-time-name="5402a24e-30fb-4d81-8c6e-dfaa512be706">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="657bd172-f77b-42a9-89b4-cd4731e20e20">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="29247784-048e-4790-b759-4196dfe3f463">
             <TableID>OLAP_CUSTOMER</TableID>
             <ColumnID>Primary_x0020_Contact</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <Translations>
-        <Translation dwd:design-time-name="1968d5f6-b035-4a5b-bf7f-301c61800038">
+        <Translation dwd:design-time-name="a4673200-9b32-46cf-b481-0d5d24b98ad8">
           <Language>1045</Language>
-          <Caption>KONTAKT</Caption>
+          <Caption>Kontakt</Caption>
         </Translation>
       </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="344d630c-8c76-4b38-8cb1-b63f69bc1240">
+    <Attribute dwd:design-time-name="5c4d346c-f341-4a51-93b0-84fec5ce5c72">
       <ID>Postal Code</ID>
       <Name>Postal Code</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="566ad9af-eede-46f5-bb78-56c3e2fc9cf7">
+        <KeyColumn dwd:design-time-name="3964d374-b171-4518-8c5d-95fcc9c13e00">
           <DataType>WChar</DataType>
           <DataSize>10</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="4a53a177-a147-47e5-a85f-e90c27c6cd2a">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="17b56a00-b203-455a-ab04-fc8943444d6d">
             <TableID>OLAP_CUSTOMER</TableID>
             <ColumnID>Postal_x0020_Code</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <Translations>
-        <Translation dwd:design-time-name="7ed4509f-4653-4d68-a951-618727712677">
+        <Translation dwd:design-time-name="360de790-8494-4049-9809-3f14a444444c">
           <Language>1045</Language>
-          <Caption>KOD POCZTOWY</Caption>
+          <Caption>Kod pocztowy</Caption>
         </Translation>
       </Translations>
       <OrderBy>Key</OrderBy>
