@@ -31,6 +31,10 @@
       <Name>Stock Item.dim</Name>
       <FullPath>Stock Item.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>DATEDIMENSION.dim</Name>
+      <FullPath>DATEDIMENSION.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
