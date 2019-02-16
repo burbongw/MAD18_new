@@ -100,6 +100,12 @@
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Translations>
+    <Translation dwd:design-time-name="70e80b4c-8fa6-4e84-84f5-84eb37bdae90">
+      <Language>1045</Language>
+      <Caption>MIASTO</Caption>
+    </Translation>
+  </Translations>
   <Attributes>
     <Attribute dwd:design-time-name="e203278e-1c44-430b-894d-77afafbb0042">
       <ID>City Key</ID>
@@ -165,6 +171,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="b835bcf3-41be-499c-bffd-852bede00eb8">
+          <Language>1045</Language>
+          <Caption>MIASTO</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -182,6 +194,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="d614775a-a848-485b-b3f3-22a73315b315">
+          <Language>1045</Language>
+          <Caption>STAN</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -199,6 +217,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="a04fb687-edbb-46b2-aeff-0699b2c767c3">
+          <Language>1045</Language>
+          <Caption>KRAJ</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -216,6 +240,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="a4852c28-5c64-4f51-9729-6e40eed16716">
+          <Language>1045</Language>
+          <Caption>KONTYNENT</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -233,6 +263,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="b3a3a5b6-520e-41b2-94e9-8b528d5416a1">
+          <Language>1045</Language>
+          <Caption>TERYTORIUM SPRZEDAŻY</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -250,6 +286,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="5ca1cb00-4a2f-4b5a-b291-490a36d8d8e8">
+          <Language>1045</Language>
+          <Caption>REGION</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -267,6 +309,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="28916a01-8efe-4bff-9fd6-55c8e0c5f43f">
+          <Language>1045</Language>
+          <Caption>PODREGION</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -283,6 +331,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="355cf230-8852-4a64-9b81-ee50bca39523">
+          <Language>1045</Language>
+          <Caption>WIELKOŚĆ POPULACJI</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -292,36 +346,78 @@
     <Hierarchy dwd:design-time-name="901332c0-92c3-49f7-98bd-e7e72028ef85">
       <ID>Hierarchy</ID>
       <Name>Hierarchy</Name>
+      <Translations>
+        <Translation dwd:design-time-name="f0232118-2422-4a8e-808a-eb0d6d4b85cd">
+          <Language>1045</Language>
+          <Caption>RKPKSM</Caption>
+        </Translation>
+      </Translations>
       <Levels>
-        <Level dwd:design-time-name="24c48b2c-8201-4919-bb5b-44b799d7b2cc">
-          <ID>Continent</ID>
-          <Name>Continent</Name>
-          <SourceAttributeID>Continent</SourceAttributeID>
-        </Level>
         <Level dwd:design-time-name="42bc11ba-622b-4509-8eb9-930984af9525">
           <ID>Region</ID>
           <Name>Region</Name>
           <SourceAttributeID>Region</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="bbd2f3e4-abfe-427f-a595-6458dbca87f9">
+              <Language>1045</Language>
+              <Caption>REGION</Caption>
+            </Translation>
+          </Translations>
         </Level>
-        <Level dwd:design-time-name="fc0cd532-5bb9-4aa8-9c2e-edf4f1b01935">
-          <ID>Country</ID>
-          <Name>Country</Name>
-          <SourceAttributeID>Country</SourceAttributeID>
+        <Level dwd:design-time-name="24c48b2c-8201-4919-bb5b-44b799d7b2cc">
+          <ID>Continent</ID>
+          <Name>Continent</Name>
+          <SourceAttributeID>Continent</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="57645025-e347-4d99-a848-7d2203d506e0">
+              <Language>1045</Language>
+              <Caption>KONTYNENT</Caption>
+            </Translation>
+          </Translations>
         </Level>
         <Level dwd:design-time-name="106ddf2b-8e90-4be3-a628-47a8be173a55">
           <ID>Subregion</ID>
           <Name>Subregion</Name>
           <SourceAttributeID>Subregion</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="99cd3dca-d187-420d-b7cc-c4042a122b2e">
+              <Language>1045</Language>
+              <Caption>PODREGION</Caption>
+            </Translation>
+          </Translations>
+        </Level>
+        <Level dwd:design-time-name="fc0cd532-5bb9-4aa8-9c2e-edf4f1b01935">
+          <ID>Country</ID>
+          <Name>Country</Name>
+          <SourceAttributeID>Country</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="f64f509a-195a-4301-bf9d-b81a6a9efac5">
+              <Language>1045</Language>
+              <Caption>KRAJ</Caption>
+            </Translation>
+          </Translations>
         </Level>
         <Level dwd:design-time-name="8bddea5e-a7b1-4b5a-9136-a128236e51f9">
           <ID>State Province</ID>
           <Name>State Province</Name>
           <SourceAttributeID>State Province</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="4adfbdd8-0172-486e-83da-13a20fd69d01">
+              <Language>1045</Language>
+              <Caption>STAN</Caption>
+            </Translation>
+          </Translations>
         </Level>
         <Level dwd:design-time-name="7a8c2940-9319-4703-bfb8-3d12ec9ffe0b">
           <ID>City</ID>
           <Name>City</Name>
           <SourceAttributeID>City</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="cb7d9845-7556-467f-84ec-e56cc9661a02">
+              <Language>1045</Language>
+              <Caption>MIASTO</Caption>
+            </Translation>
+          </Translations>
         </Level>
       </Levels>
     </Hierarchy>
